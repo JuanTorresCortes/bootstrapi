@@ -13,23 +13,41 @@
 </head>
 <body>
     
-    <div class="api-section">
-        <h1>
-            Part 1: Random Dog Generator
-        </h1>
-        <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+        <div class="api-section">
+            <h1>
+                Part 1: Random Dog Generator
+            </h1>
+            <div class="api-content">
+                <div class="card" style="width: 18rem;">
+                    <img id="dog-pic" class="card-img-top" alt='dog pics' width="350px" height="249px">
+                    <div class="card-body">
+                      <h5 class="card-title">Fun fact about dogs</h5>
+                      <p class="card-text">Dogs are the most popular pet on the planet! A third of ALL households around the world have a dog. These playful, friendly, loyal animals make great companions, but they can also be fierce and tough protectors, or intelligent helpers</p>
+                      <label for="dog-But">Click to see more dogs</label>
+                      <button id="dog-But" type="button" class="btn btn-primary">click</button>
+                    </div>
+    
+                  </div>
+            </div>
         </div>
-    </div>
-
-    <div class="api-section">
-        <h1>
-            Part 2: Weather App
-        </h1>
-        <div class="api-content">
-            [INSERT WEATHER APP HERE]
+    
+        <div class="api-section">
+            <h1>
+                Part 2: Weather App
+            </h1>
+            <div id="api-Content" class="api-content">
+                <form>
+                    <div class="mb-3">
+                      <label for="user-Input" class="form-label">Enter a City to Check the weather</label>
+                      <br>
+                      <input id="user-Input" type="text" autocomplete="off" placeholder="CITY"  >
+                    </div>
+                    <button id="weather-But" type="button" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
         </div>
-    </div>
+    
+   
 
     <script src="main.js"></script>
 </body>
